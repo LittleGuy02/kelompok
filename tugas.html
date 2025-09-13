@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Kelompok</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: rgba(0, 0, 0, 0.3);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #fff;
+      object-fit: cover;
+    }
+    .card h2 {
+      margin-bottom: 5px;
+      font-size: 1.5em;
+    }
+    .role {
+      font-weight: bold;
+      color: #ffeb3b;
+      margin-bottom: 10px;
+    }
+    .desc {
+      font-size: 0.95em;
+      line-height: 1.5;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Eclipse Division</h1>
+    <p>Website ini menampilkan profile anggota kelompok kami</p>
+  </header>
+
+  <div class="container">
+    <!-- Ketua 1 -->
+    <div class="card">
+      <img src="photo1.jpeg" alt="Ketua 1">
+      <h2>Lieandra Fadillah</h2>
+      <p class="role">Ketua Utama</p>
+      <p class="desc">
+        Bertanggung jawab penuh atas jalannya proyek, mengatur strategi kerja, serta memastikan setiap anggota memahami tugas masing-masing.  
+        Juga menjadi penghubung utama antara kelompok dengan guru pembimbing.
+      </p>
+    </div>
+
+    <!-- Ketua 2 -->
+    <div class="card">
+      <img src="photo2.jpeg" alt="Ketua 2">
+      <h2>Imanuel Naibaho</h2>
+      <p class="role">Ketua Pendamping</p>
+      <p class="desc">
+        Mendampingi Ketua Utama dalam pengambilan keputusan, membantu koordinasi anggota, serta memantau perkembangan tugas.  
+        Berperan sebagai pengatur jadwal dan pengawas kualitas hasil kerja.
+      </p>
+    </div>
+
+    <!-- Anggota 1 -->
+    <div class="card">
+      <img src="photo3.jpeg" alt="Anggota 1">
+      <h2>Radith Alief Alpharizzy</h2>
+      <p class="role">Anggota</p>
+      <p class="desc">
+        Bertugas mengumpulkan data dan informasi yang diperlukan dalam proyek.  
+        Membantu dalam proses penulisan laporan dan memastikan konten sesuai dengan topik yang diberikan.
+      </p>
+    </div>
+
+    <!-- Anggota 2 -->
+    <div class="card">
+      <img src="photo4.jpeg" alt="Anggota 2">
+      <h2>Patuan Nanggi Raja Mulia HSB</h2>
+      <p class="role">Anggota</p>
+      <p class="desc">
+        Bertugas dalam pembuatan desain dan presentasi kelompok.  
+        Menyusun tampilan visual agar laporan dan presentasi lebih menarik, serta mendukung komunikasi kelompok.
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Portfolio Kelompok X-5 | Semua Hak Dilindungi</p>
+  </footer>
+
+</body>
+</html>
